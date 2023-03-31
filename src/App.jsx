@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Blog from './Component/Blog/Blog'
+
 import Blogs from './Component/Blogs/Blogs'
+import Blog from './Component/Blog/Blog'
 
 
 function App() {
