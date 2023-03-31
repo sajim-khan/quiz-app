@@ -9,10 +9,10 @@ const Blogs = () => {
           <a href="/home">Home</a>
           <a href="/blogs">Blogs</a>
           <a href="/login">Login</a>
+          {/* <a src="user-1.png"></a> */}
           <img src="user-1.png" alt="" />
         </div>
       </nav>
-      
     );
 };
 
