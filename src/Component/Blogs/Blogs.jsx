@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-      <nav className="header">
+      <nav className="header col col-sm-1 ">
         <h2>Basic Knowledge</h2>
         <div>
           <a href="/home">Home</a>

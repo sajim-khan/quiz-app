@@ -15,8 +15,9 @@ const SingleBlog = ({ blog, handleAddToBookmark, handleAddToMarkAsRead }) => {
             <p className="name">{name}</p>
             <p className="date">{published}</p>
           </div>
-          <p style={{ marginLeft: 270 }}>
-            {time} minute read
+          <p style={{ marginLeft: 270, marginRight: 5 }}>
+            {time}{" "}
+            <span style={{marginRight: 5 }}>minute read</span>
             <button
               onClick={() => {
                 handleAddToBookmark(blog);
@@ -27,13 +28,13 @@ const SingleBlog = ({ blog, handleAddToBookmark, handleAddToMarkAsRead }) => {
           </p>
         </div>
       </div>
-      <h2> {title}</h2>
+      <h3 className="title"> {title}</h3>
       <p className="hashtag">#beginner #programming</p>
-      <button
+      <button 
         onClick={() => {
           handleAddToMarkAsRead(blog);
         }}
-        className="mark"
+        className="mark btn btn-primary"
       >
         Mark as read
       </button>

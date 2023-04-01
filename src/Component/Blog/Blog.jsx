@@ -17,7 +17,7 @@ const Blog = () => {
   const [bookmark, setBookmark] = useState([]);
   const handleAddToBookmark = (title) => {
   if(bookmark.find(p => p.id === title.id)){
-    toast("Already added");
+    toast("Already added in Bookmark");
   }
   
   
@@ -49,7 +49,7 @@ for (const singleTimeBlog of spentTimeBlog){
         ))}
       </div>
       <div>
-        <h2>Spent time on read : {totalTime} min</h2>
+        <h3 className="spent-time">Spent time on read : {totalTime} min</h3>
         <h3 className="bookmark">Bookmarked Blogs : {bookmark.length} </h3>
 
         {bookmark.map((title) => (
