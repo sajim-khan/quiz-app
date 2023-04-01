@@ -5,7 +5,7 @@
         "cover_img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
         "title": "How to get your first job as a self-taught programmer?",
         "author_img": "https://c.tadst.com/gfx/750x500/authors-day-fun.jpg",
-        "time": "7",
+        "time": 7,
         "published": "10 feb 2023"
     },
     {
@@ -14,7 +14,7 @@
         "cover_img": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "title": "What is the difference between props and state?",
         "author_img": "https://i.guim.co.uk/img/media/e2db44a61b6568790b35fb877b9c6d12a0a3ba34/0_187_3981_2390/master/3981.jpg?width=620&quality=45&dpr=2&s=none",
-        "time": "11",
+        "time": 11,
         "published": "20 feb 2023"
     },
      {
@@ -23,7 +23,7 @@
         "cover_img": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "title": "How does useState() work?",
         "author_img": "https://www.gannett-cdn.com/-mm-/584a00a4f27c0844bfbdcfccc07f7f147fb5df16/c=0-35-1072-1464/local/-/media/2018/05/04/USATODAY/USATODAY/636610239243617943-XXX-IMG-TAYLOR-JENKINS-REID-1-1-FAIGGO1N-91524160.JPG?width=600&height=800&fit=crop&format=pjpg&auto=webp",
-        "time": "15",
+        "time": 15,
         "published": "10 jan 2023"
     },
      {
@@ -32,7 +32,7 @@
         "cover_img": "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "title": "How does react works?",
         "author_img": "https://i.guim.co.uk/img/media/47d84d53634751f28cc2a81b1cdfb89aeea939dd/0_165_516_310/master/516.jpg?width=620&quality=45&dpr=2&s=none",
-        "time": "5",
+        "time": 5,
         "published": "10 mar 2023"
     }   
 ]
