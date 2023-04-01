@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./Blog.css";
 import SingleBlog from "../SingleBlog/SingleBlog";
 import SideCart from "../SideCart/SideCart";
+import { ToastContainer, toast } from "react-toastify";
 
 const Blog = () => {
   const [blog, setBlog] = useState([]);
@@ -16,8 +17,10 @@ const Blog = () => {
   const [bookmark, setBookmark] = useState([]);
   const handleAddToBookmark = (title) => {
   if(bookmark.find(p => p.id === title.id)){
-    console.log('Already added')
+    toast("Already added");
   }
+  
+  
     const newBookmark = [...bookmark, title];
     setBookmark(newBookmark);
   };
@@ -46,7 +49,7 @@ for (const singleTimeBlog of spentTimeBlog){
         ))}
       </div>
       <div>
-        <h2>Spent time on read : { totalTime}</h2>
+        <h2>Spent time on read : {totalTime} min</h2>
         <h3 className="bookmark">Bookmarked Blogs : {bookmark.length} </h3>
 
         {bookmark.map((title) => (

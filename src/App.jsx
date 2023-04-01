@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Blogs from './Component/Blogs/Blogs'
 import Blog from './Component/Blog/Blog'
@@ -14,6 +16,7 @@ function App() {
     <Blogs></Blogs>
     <Blog></Blog>
     <QuestionAndAns></QuestionAndAns>
+    <ToastContainer></ToastContainer>
     </div>
   )
 }
