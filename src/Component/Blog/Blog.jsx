@@ -12,6 +12,7 @@ const Blog = () => {
       .then((response) => response.json())
       .then((data) => setBlog(data));
   }, []);
+  
   const [bookmark, setBookmark] = useState([]);
   const handleAddToBookmark = (title) => {
     const newBookmark = [...bookmark, title];
@@ -21,6 +22,7 @@ const Blog = () => {
   return (
     <div className="container">
       <div className="blog-container">
+      
         {blog.map((blog) => (
           <SingleBlog
             key={blog.id}
@@ -30,7 +32,7 @@ const Blog = () => {
         ))}
       </div>
       <div>
-        <h1>Cart</h1>
+        <h3 className="bookmark">Bookmarked Blogs :{bookmark.length} </h3>
 
         {bookmark.map((title) => (
           <SideCart title={title}></SideCart>
@@ -41,3 +43,5 @@ const Blog = () => {
 };
 
 export default Blog;
+
+

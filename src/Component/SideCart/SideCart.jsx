@@ -1,7 +1,10 @@
 import React from "react";
+import './SideCart.css'
 
 const SideCart = ({ title }) => {
-  return <div>{title.title}</div>;
+  return <div className="">
+  {title.title}
+  </div>;
 };
 
 export default SideCart;

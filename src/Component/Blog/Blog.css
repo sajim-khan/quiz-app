@@ -1,6 +1,12 @@
-.container{
-margin: 10px 100px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+.container {
+  margin: 10px 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
+.bookmark {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  color: #111111;
+}

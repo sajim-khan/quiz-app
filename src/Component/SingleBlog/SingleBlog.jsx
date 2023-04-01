@@ -15,7 +15,7 @@ const SingleBlog = ({ blog, handleAddToBookmark }) => {
             <p className="name">{name}</p>
             <p className="date">{published}</p>
           </div>
-          <p style={{ marginLeft: 300 }}>
+          <p style={{ marginLeft: 270 }}>
             {time} minute read
             <button
               onClick={() => {
@@ -34,3 +34,4 @@ const SingleBlog = ({ blog, handleAddToBookmark }) => {
   );
 };
 export default SingleBlog;
+

@@ -3,6 +3,7 @@ import './App.css'
 
 import Blogs from './Component/Blogs/Blogs'
 import Blog from './Component/Blog/Blog'
+import QuestionAndAns from './Component/Question & Ans/QuestionAndAns'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
     <Blogs></Blogs>
     <Blog></Blog>
+    <QuestionAndAns></QuestionAndAns>
     </div>
   )
 }
